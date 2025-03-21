@@ -7,7 +7,7 @@ class ContactAdmin(admin.ModelAdmin):
 
     # campos que estarão disponiveis na listagem
     list_display = ('id', 'first_name', 'last_name',
-                    'phone', 'email', 'created_date')
+                    'phone', 'email', 'created_date', 'show',)
 
     # campos que estarão disponiveis para filtro
     search_fields = ('first_name', 'last_name', 'phone', 'email')
@@ -28,3 +28,10 @@ class ContactAdmin(admin.ModelAdmin):
 
     # campos que sao links que abrem para editar o contato
     list_display_links = ('first_name', 'last_name')
+
+
+@admin.register(models.Category)
+class CategoryAdmin(admin.ModelAdmin):
+
+    list_display = ('name',)
+    ordering = '-id',
