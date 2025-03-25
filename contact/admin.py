@@ -7,7 +7,7 @@ class ContactAdmin(admin.ModelAdmin):
 
     # campos que estarão disponiveis na listagem
     list_display = ('id', 'first_name', 'last_name',
-                    'phone', 'email', 'created_date', 'show',)
+                    'phone', 'show',)
 
     # campos que estarão disponiveis para filtro
     search_fields = ('first_name', 'last_name', 'phone', 'email')
@@ -24,10 +24,10 @@ class ContactAdmin(admin.ModelAdmin):
     list_max_show_all = False
 
     # campos que podem ser editados direto na listagem
-    # list_editable = ('first_name', 'last_name', 'phone', 'email')
+    list_editable = ('first_name', 'last_name', 'show')
 
     # campos que sao links que abrem para editar o contato
-    list_display_links = ('first_name', 'last_name')
+    list_display_links = ('id', 'phone')
 
 
 @admin.register(models.Category)
