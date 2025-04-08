@@ -1,0 +1,23 @@
+from django.shortcuts import render, redirect, get_object_or_404
+from contact.forms import RegisterForm
+from django.contrib import messages
+
+
+def register(request):
+    form = RegisterForm()
+
+    if request.method == 'POST':
+        form = RegisterForm(request.POST)
+
+        if form.is_valid():
+            form.save()
+            messages.success(request, "Cadastro efetuado com sucesso")
+            return redirect("contact:index")
+
+    return render(
+        request,
+        "contact/register.html",
+        {
+            "form": form,
+        }
+    )
