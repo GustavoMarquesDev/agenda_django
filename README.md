@@ -53,7 +53,7 @@ cd agenda_django
 python manage.py createsuperuser
 ```
 
-### !!! Opcional: Para criar 1000 contatos utilizando o script ****
+### !!! Opcional: Para criar 1000 contatos utilizando o script !!!
 ```
 python utils/create_contacts.py
 ```
