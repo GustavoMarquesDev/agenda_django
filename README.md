@@ -4,6 +4,11 @@ Este é um projeto de exemplo utilizando o framework **Django** para criação d
 
 O projeto é ideal para fins educacionais, prática com o Django ou como base para projetos mais complexos.
 
+📌 Requisitos
+
+- Python 3.8 ou superior
+- Django 5.x
+
 ## 🚀 Funcionalidades
 
 - Autenticação via admin do Django  
@@ -18,11 +23,6 @@ O projeto é ideal para fins educacionais, prática com o Django ou como base pa
 - Django 5.x  
 - SQLite (banco de dados padrão)  
 - Faker (para geração de dados fictícios)
-
-📌 Requisitos
-
-Python 3.8 ou superior
-Django 5.x
 
 ## 🛠️ Como Executar o Projeto
 
