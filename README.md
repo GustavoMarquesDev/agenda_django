@@ -33,11 +33,11 @@ git clone https://github.com/GustavoMarquesDev/agenda_django.git
 cd agenda_django
 ```
 ### Crie um ambiente virtual 
-
+```
 - python -m venv venv
 - source venv/bin/activate  # Linux/macOS ou
 - venv\Scripts\activate  # Windows
-
+```
 ### Instale as dependencias
 -pip install -r requirements.txt
 
