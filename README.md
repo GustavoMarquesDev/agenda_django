@@ -32,26 +32,36 @@ Clone o repositório e entre no diretório do projeto:
 git clone https://github.com/GustavoMarquesDev/agenda_django.git
 cd agenda_django
 ```
-### Crie um ambiente virtual 
+### Crie um ambiente virtual e ative
 ```
 - python -m venv venv
 - source venv/bin/activate  # Linux/macOS ou
 - venv\Scripts\activate  # Windows
 ```
 ### Instale as dependencias
+```
 -pip install -r requirements.txt
+````
 
 ### Crie as migrações
+```
 -python manage.py migrate
+```
 
 ### Crie seu superusuario
+```
 python manage.py createsuperuser
+```
 
-### *** Opcional: Para criar 1000 contatos utilizando o script ****
+### !!! Opcional: Para criar 1000 contatos utilizando o script ****
+```
 python utils/create_contacts.py
+```
 
 ### Por fim inicialize o servidor com:
+```
 -python manage.py runserver
+```
 
 
 
