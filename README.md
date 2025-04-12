@@ -9,6 +9,12 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
+```
+Opcional: Criar 1000 contatos aleatórios para popular o projeto
+
+python utils/create_contacts.py
+```
+
 Configurar o git
 
 ```
