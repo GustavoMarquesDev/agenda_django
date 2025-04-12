@@ -20,8 +20,8 @@ O projeto é ideal para fins educacionais, prática com o Django ou como base pa
 - Faker (para geração de dados fictícios)
 
 📌 Requisitos
-Python 3.8 ou superior
 
+Python 3.8 ou superior
 Django 5.x
 
 ## 🛠️ Como Executar o Projeto
