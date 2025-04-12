@@ -6,8 +6,7 @@ from contact import models
 class ContactAdmin(admin.ModelAdmin):
 
     # campos que estarão disponiveis na listagem
-    list_display = ('id', 'first_name', 'last_name',
-                    'phone', 'show',)
+    list_display = ('id', 'first_name', 'last_name', 'phone', 'show',)
 
     # campos que estarão disponiveis para filtro
     search_fields = ('first_name', 'last_name', 'phone', 'email')
