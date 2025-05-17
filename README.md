@@ -1,6 +1,6 @@
 # 📇 Lista de Contatos - Projeto Django
 
-Este é um projeto de exemplo utilizando o framework **Django** para criação de uma aplicação web simples de gerenciamento de contatos. Através do painel administrativo nativo do Django, você pode cadastrar, editar, visualizar e excluir contatos com facilidade.
+Este é um projeto de exemplo utilizando o framework **Django** para criação de uma aplicação web de gerenciamento de contatos. Através do painel administrativo nativo do Django, você pode, desde que esteja cadastrado, cadastrar, editar, visualizar e excluir contatos com facilidade.
 
 O projeto é ideal para fins educacionais, prática com o Django ou como base para projetos mais complexos.
 
