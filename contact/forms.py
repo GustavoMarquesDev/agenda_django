@@ -130,10 +130,10 @@ class RegisterUpdtateForm(forms.ModelForm):
         cleaned_data = self.cleaned_data
         user = super().save(commit=False)
 
-        passoword = cleaned_data.get('password1')
+        password = cleaned_data.get('password1')
 
-        if passoword:
-            user.set_password(passoword)
+        if password:
+            user.set_password(password)
 
         if commit:
             user.save()
